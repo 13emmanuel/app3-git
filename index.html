@@ -1,0 +1,281 @@
+﻿<!DOCTYPE html>
+<html>
+ <head>
+ <!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+  <meta charset=utf-"8">
+  <title>Datos del alumno</title>
+  <!--grupo CSS-->
+  <link rel="stylesheet" href="css/temaapp.min.css"/>
+  <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+  <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+ 
+  <!--grupo JavaScript-->
+  <script src ="js/jquery-1.11.2.min.js"></script>
+  <script src ="js/jquery.mobile-1.4.5.min.js"></script>
+  <!--<script src ="js/acciones.js"></script>-->
+ 
+  <script src ="phonegap.js"></script><!--necesario*/-->
+ <script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+ </script>
+ </head>
+<body onLoad="MM_preloadImages('imagenes/bici12.jpg','imagenes/bici8.jpg')">
+
+ <div data-role="page" data-theme="a" rel="stylesheet" href="css/app3-theme.min.css" type="text/css">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+   <h1>dia mundial de la bicicleta</h1>
+  </div> 
+  <div data-role="main" class="iu-content">
+   <div data-role="collapsible" data-comtent-theme="false">
+    <h1>banner conmemorativo:</h1>
+    <div>
+   <p>LA BICICLETA</p>
+     <br> 
+    </div>
+    <div>
+     <img src="imagenes/bici7.jpg" width="50%" height="50%"> 
+    </div>
+   </div>
+  </div>
+  <div>
+    <ul data-role="listview" data-theme="c" class="ui-listview ui-group-theme-a">
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>Historia de la Bicicleta</h2> 
+      </a>
+     </li>
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>Utilizacion como medio de Transporte</h2>
+      </a>      
+     </li>
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>Tipos De Bicicletas</h2> 
+      </a>      
+     </li> 
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>5 Marcas Importantes de Bicicletas</h2>
+      </a>      
+     </li> 
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>Porque se Celebra el Dia Mundial de la Bicicleta</h2>
+      </a>      
+     </li>      
+    </ul>
+  </div>
+  <div dara-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+    <img src="imagenes/bicicleta.png" width="46" height="46">
+   </div>
+   <div>
+    <h4>Aplicacion tres</h4>
+    <h4>Emmanuel Moreno Quintero</h4>
+   </div>
+  </div>
+</div>
+ <div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1>HISTORIA</h1> 
+  </div>
+<div data-role="content" align="center">
+   <div>
+    <p> La primera bicicleta, fabricada con madera, se llamaba draisina porque la invento Karl Drais en 1817. No tenía pedales: habia que empujarla con los pies en el suelo. Un herrero escoces llamado Kirkpatrick Macmillan creo la primera maquina con pedales y dos ruedas en 1839. Sin embargo, esta rudimentaria bicicleta aun no tenia correa de transmision.
+    En 1861, al frances Ernest Michaux se le ocurrio una original mejora: ubicar los pedales en la rueda delantera. No triunfo porque se necesitaba mucho equilibrio para manejarla, pero la idea de los pedales conectados a la rueda abrio el camino para llegar a la bicicleta tal y como la usamos actualmente. Para resolver el problema de la falta de equilibrio, en 1873, un inventor ingles llamado James Starley propuso una maquina con la rueda delantera mucho más grande que la trasera. En enero de 1887, el norteamericano Thomas Stevens comenzo el primer viaje en bicicleta alrededor del mundo. Partio de San Francisco y no llegaria hasta tres anos despues. </p>
+    <br>
+    <img src="imagenes/primerabici.png" width="50%" height="50%">
+   </div>
+  </div>
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+    <img src="imagenes/bicicleta.png" width="46" height="46">
+   </div>
+   <h4>Aplicacion tres, EMQ</h4>
+  </div>
+ </div>
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1>utilizacion como medio de transporte</h1> 
+  </div>
+  <div data-role="content" align="center">
+   <div>
+    <p>En paises europeos como Espana, Dinamarca, Polonia, Holanda y Francia,  y en algunos asiaticos como China, la bicicleta es un medio de transporte  muy comun entre sus habitantes. 
+  con ventajas no solo para las personas sino para el cuidado del medio ambiente.
+     usar la bicicleta como medio de transporte, asi sea para recorrer trayectos cortos, puede beneficiar  tu salud, al cuidado del medio ambiente y hasta tu bolsillo.
+     La bicicleta sí es efectiva como medio de transporte para distancias no tan extensas, para usarla dentro de una ciudad o pueblo es de mucha utilidad.
+
+El uso de la bicicleta esta extendido en casi todo el continente europeo. En paises como Holanda, Suiza, Alemania, unas zonas de Polonia y en los paises nordicos; se ha convertido en uno de los primordiales medios de transporte. Pasando a Asia, fundamentalmente en China y La India, es la primera forma de transporte.
+
+Actualmente, en el mundo, existen cerca de 800 millones de bicicletas, siendo China el pais poseedor de la mayor cantidad de estos vehiculos.
+</p>
+<br>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Imagen','','imagenes/bici12.jpg',1)"><img src="imagenes/bici3.jpg" width="50%" height="50%" id="Imagen"></a> 
+</div>
+  </div>
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+    <img src="imagenes/bicicleta.png" width="46" height="46">
+   </div>
+   <h4>Aplicacion tres, EMQ</h4>
+  </div>
+</div>
+
+ <div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1>Tipos de Bicicleta</h1> 
+  </div>
+  <div data-role="content" align="center">
+   <div>
+   <p> Los diferentes disenos de las bicicletas están basados en su funcionalidad: para que tipo de terreno, desarrollo de velocidad, menor peso o mayor fortaleza, etc. Vamos dar las caracteristicas de los más usuales para ayudarte a elegir la bicicleta que mejor se adapte a tu persona y necesidades.
+   </p>
+   <h2> Bicicletas de Ruta</h2>
+   <p> Son bicicletas orientadas a obtener velocidad en pavimento, de construccion mas ligera que otras bicicleta, estan dotadas con ruedas mas grandes, delgadas y provistas de llantas angostas y con dibujo liso. Las bicis de ruta utilizan manubrios drop-bar para lograr una postura mas aerodinamica.
+   </p>
+   <br>
+   <img src="imagenes/tipos/ruta.jpg" width="50%" height="50%">
+   <br>
+   <h2> Electricas </h2>
+   <p>Las bicicletas electricas son todas aquellas bicis que utilizan un motor para asistir el pedaleo. 
+     Por otro lado estas bicis son mas costosas y pesadas que el resto.
+    </p>
+    <br>
+    <img src="imagenes/tipos/electrica.jpg" width="50%" height="50%">
+    <br>
+    <h2>Fat Bikes </h2>
+    <p>su uso principal es sobre terrenos con nieve o arena, grandes piedras, raices, et. La principal caracteristica de estas bicicletas son sus llantas rodado 26″ sumamente anchas (normalmente de entre 3 y 3.6 pulgadas). La geometria de su cuadro es muy similar a una bicicleta de montana con la diferencia de que usa tijera/horquilla y vainas con holgura adecuada para las ruedas gordas. Estas bicis están equipadas con velocidades múltiples y frenos de disco.
+   </p>
+   <br>
+   <img src="imagenes/tipos/fat.jpg" width="50%" height="50%">
+   <br>
+   <h2> Bicicletas utilitarias</h2>
+   <p>utilizan cuadros sumamente fuertes, con un buen sistema de frenos (frenos de disco, tambor, son comunes) y una relacion de velocidades adecuada para mover el peso extra. Existen bicis cargo de diferentes tipos y diferentes capacidades dependiendo de lo que se vaya a mover. Otra variante es el tipo de area de carga y el posicionamiento de la carga.
+    </p>
+    <br>
+    <img src="imagenes/tipos/utilitarias.jpg" width="50%" height="50%">
+    <br>
+    <h2>MBX </h2>
+    <p>Las BMX utilizan cuadros pequenos y resistentes, ideales para saltos y acrobacias. Existen diferentes variables de estas bicicletas, algunas con llantas anchas para usarse en terrenos sueltos y otras con llantas un poco mas delgadas y lisas para usarse en rampas o en la calle. Estas bicicletas no son eficientes como medio de transporte.
+     </p>
+     <br>
+     <img src="imagenes/tipos/MBX.jpg" width="50%" height="50%">
+     <br>
+     <br>
+     <h2> quieres conocer mas tipos? </h2>
+     <a href="http://labicicleta.info/tipos-de-bicicleta/" traget="_self">preciona aqui </a>
+   </div>
+  </div>
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+    <img src="imagenes/bicicleta.png" width="46" height="46">
+   </div>
+   <h4>Aplicacion tres, EMQ</h4>
+  </div>
+ </div>
+
+ <div data-role="page" id="Pagina4" data-add- <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+    <img src="imagenes/bicicleta.png" width="46" height="46">
+   </div>
+   <h4>Aplicacion tres, EMQ</h4>
+  </div>
+ </div>
+
+ <div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1> 5 Marcas Importantes De Bicicletas</h1> 
+  </div>
+  <div data-role="content" align="center">
+   <div>
+    <li>Specialized</li>
+    <br>
+    <li> Trek</li>
+     <br>
+    <li> Merida </li>
+    <br>
+   <li> Scott </li>
+  <br>
+    <li> Giant </li>
+    <br>
+   </div>
+  </div>
+  <div>
+  <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/bicidecarretera002.jpg" alt="BMC" title="BMC" id="wows1_0"/></li>
+		<li><img src="data1/images/bicidecarretera004.jpg" alt="TREK" title="TREK" id="wows1_1"/></li>
+		<li><img src="data1/images/bicidecarretera006.jpg" alt="DOGMA" title="DOGMA" id="wows1_2"/></li>
+		<li><img src="data1/images/bicidecarretera008.jpg" alt="SCOTT" title="SCOTT" id="wows1_3"/></li>
+		<li><a href="http://wowslider.com"><img src="data1/images/bicidecarretera009.jpg" alt="bootstrap slider" title="" id="wows1_4"/></a></li>
+		<li><img src="data1/images/bicidecarretera010.jpg" alt="GIANT" title="GIANT" id="wows1_5"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="BMC"><span><img src="data1/tooltips/bicidecarretera002.jpg" alt="BMC"/>1</span></a>
+		<a href="#" title="TREK"><span><img src="data1/tooltips/bicidecarretera004.jpg" alt="TREK"/>2</span></a>
+		<a href="#" title="DOGMA"><span><img src="data1/tooltips/bicidecarretera006.jpg" alt="DOGMA"/>3</span></a>
+		<a href="#" title="SCOTT"><span><img src="data1/tooltips/bicidecarretera008.jpg" alt="SCOTT"/>4</span></a>
+		<a href="#" title=""><span><img src="data1/tooltips/bicidecarretera009.jpg" alt=""/>5</span></a>
+		<a href="#" title="GIANT"><span><img src="data1/tooltips/bicidecarretera010.jpg" alt="GIANT"/>6</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">jquery slider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+   </div>
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+    <img src="imagenes/bicicleta.png" width="46" height="46">
+   </div>
+   <h4>Aplicacion tres, EMQ</h4>
+  </div>
+ </div>
+
+ <div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1>¿porque se celebra el dia mundial de la bicicleta?</h1> 
+  </div>
+  <div data-role="content" align="center">
+   <div>
+    <p> todo se debe a la ciencia, a un cientifico distraido y a una sustancia que hoy calificamos como una "droga" y que, para decir lo menos, cambio la  cara de la cultura popular, las artes y el estudio  de la mente y el cerebro humano del siglo xx.
+    un dia como hoy hofmann decide experimentar con la sustacia en si msimo e ingiere una dosis de microgramos lo cual, hoy sabemos, es una dosis muy alta. En menos de una hora, el quimico estaba bajo vigilancia medica reporta severos cambios en su percepcion y tiene que ser acompañado por su asistente de regreso a su casa a bordo de una bicicleta. esta ocasion, la de la primera ingestion intencional de LSD y del primer trip o viaje deliberado, es conocido como "EL DIA DE LA BICICLETA..."
+    </p>
+    <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image16','','imagenes/bici8.jpg',1)"><img src="imagenes/lsd.jpg" width="50%" height="50%" id="Image16"></a> </div>
+  </div>
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+    <img src="imagenes/bicicleta.png" width="46" height="46">
+   </div>
+   <h4>Aplicacion tres, EMQ</h4>
+  </div>
+ </div>
+
+</body>
+</html>
+
+ 
